@@ -1,9 +1,10 @@
 {
-  "build": {
-    "builder": "NIXPACKS"
+  "name": "delta-setup",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "serve -s public -l $PORT"
   },
-  "deploy": {
-    "startCommand": "npx serve -s public -l $PORT",
-    "restartPolicyType": "ON_FAILURE"
+  "dependencies": {
+    "serve": "^14.2.0"
   }
 }
