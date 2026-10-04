@@ -3,7 +3,7 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "npx serve .",
+    "startCommand": "public/index.html",
     "restartPolicyType": "ON_FAILURE"
   }
 }
